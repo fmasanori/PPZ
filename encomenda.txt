@@ -1,0 +1,12 @@
+Destino: Raio que o parte
+Descrição: Queijo
+Endereço: Rua sem fim
+CEP 42
+Bairro Zumbilândia
+
+Destino:Pindamonhangaba
+Descrição:Anzóis
+Endereço:Rua de Pinda 42
+Bairro de Pinda
+CEP 1234-5
+
