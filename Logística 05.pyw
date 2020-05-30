@@ -1,0 +1,36 @@
+def salvar_dados(): 
+    f = open('encomenda.txt', 'a')    
+    f.write('Destino: ') 
+    f.write(f'{destino.get()}\n') 
+    f.write('Descrição: ') 
+    f.write(f'{descrição.get()}\n')
+    f.write('Endereço: ') 
+    f.write(f'{endereço.get("1.0", END)}\n')
+    destino.set('Jacareí') 
+    descrição.delete(0, END) 
+    endereço.delete("1.0", END)
+    f.close()
+def ler_destinos(arquivo): 
+    destinos = [] 
+    f = open(arquivo) 
+    for linha in f: destinos.append(linha.rstrip())
+    f.close()
+    destinos.sort()
+    return destinos
+from tkinter import * 
+app = Tk() 
+app.title('Head-Ex Logística e Transportes') 
+Label(app, text = "Destino:").pack() 
+destino = StringVar() 
+destino.set('Jacareí') 
+opções = ler_destinos("cidades.txt") 
+OptionMenu(app, destino, *opções).pack()
+Label(app, text = "Descrição:").pack() 
+descrição = Entry(app) 
+descrição.pack() 
+Label(app, text = "Endereço:").pack() 
+endereço = Text(app) 
+endereço.pack() 
+Button(app, text = "Salvar", command = salvar_dados).pack() 
+app.mainloop() 
+
