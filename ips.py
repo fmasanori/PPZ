@@ -8,7 +8,7 @@ def ip_ok(ip):
 arq = open('IPS.txt')
 validos = open('Válidos.txt', 'w')
 invalidos = open('Inválidos.txt', 'w')
-for linha in arquivo.readlines():
+for linha in arq.readlines():
     if ip_ok(linha):
         validos.write(linha)
     else:
