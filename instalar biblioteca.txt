@@ -1,0 +1,5 @@
+Habilitar PATH na instalação!
+botão windows > CMD > enter
+pip install twitter-scraper
+pip install requests
+pip install pygame
