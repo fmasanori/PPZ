@@ -13,9 +13,11 @@ for p in palavras:
     else:
         wc[p] = 1
 
-def contador(dupla):
-    return dupla[1]
+##def contador(dupla):
+##    return dupla[1]
 
-duplas = sorted(wc.items(), key=contador, reverse=True)
+duplas = sorted(wc.items(),
+                key=lambda dupla:dupla[1],
+                reverse=True)
 for dupla in duplas[:20]:
     print (dupla[0], dupla[1])
