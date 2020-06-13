@@ -5,7 +5,7 @@ def salvar_dados():
     f.write('Descrição: ') 
     f.write(f'{descrição.get()}\n')
     f.write('Endereço: ') 
-    f.write(f'{endereço.get('1.0', END)}\n')
+    f.write(f'{endereço.get("1.0", END)}\n')
     destino.set(None)
     descrição.delete(0, END)
     endereço.delete('1.0', END)

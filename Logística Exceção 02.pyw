@@ -7,14 +7,14 @@ def salvar_dados():
         f.write('Descrição: ') 
         f.write(f'{descrição.get()}\n')
         f.write('Endereço: ') 
-        f.write(f'{endereço.get('1.0', END)}\n')
+        f.write(f'{endereço.get("1.0", END)}\n')
         destino.set('São José dos Campos') 
         descrição.delete(0, END) 
         endereço.delete("1.0", END)
         f.close()
     except Exception as exceção:
         messagebox.showerror('Erro!',
-        'Não foi possível gravar a encomenda\n%s' %exceção)
+        f'Não foi possível gravar a encomenda\n{exceção}')
     
 def ler_destinos(arquivo): 
     destinos = [] 
