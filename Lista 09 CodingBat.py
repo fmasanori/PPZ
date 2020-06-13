@@ -6,10 +6,10 @@
 # first_last6([1, 2, 6]) -> True
 # first_last6([6, 1, 2, 3]) -> True
 # first_last6([3, 2, 1]) -> False
-def first_last6(nums):
+def first_last6(nums): #
   return
 
-# B. same_first_last
+# B. same_first_last #
 # retorna True se a lista nums possui pelo menos um elemento
 # e o primeiro elemento é igual ao último
 # same_first_last([1, 2, 3]) -> False
@@ -18,7 +18,7 @@ def first_last6(nums):
 def same_first_last(nums):
   return 
 
-# C. common_end
+# C. common_end #
 # Dada duas listas a e b verifica se os dois primeiros são
 # iguais ou os dois últimos são iguais
 # suponha que as listas tenham pelo menos um elemento
@@ -28,7 +28,7 @@ def same_first_last(nums):
 def common_end(a, b):
   return 
 
-# D. maior_ponta
+# D. maior_ponta #
 # Dada uma lista não vazia, cria uma nova lista onde todos
 # os elementos são o maior das duas pontas
 # obs.: não é o maior de todos, mas entre as duas pontas
@@ -37,14 +37,14 @@ def common_end(a, b):
 def maior_ponta(nums):
   return
 
-# E. sum2
+# E. sum2 #
 # Dada uma lista de inteiros de qualquer tamanho
 # retorna a soma dos dois primeiros elementos
 # se a lista tiver menos de dois elementos, soma o que for possível
 def sum2(nums):
   return 
 
-# F. middle_way
+# F. middle_way #
 # sejam duas listas de inteiros a e b
 # retorna uma lista de tamanho 2 contendo os elementos do
 # meio de a e b, suponha que as listas tem tamanho ímpar
@@ -98,7 +98,7 @@ def squirrel_play(temp, is_summer):
 def pego_correndo(speed, is_birthday):
   return
 
-# J. alarm_clock
+# J. alarm_clock #
 # day: 0=domingo, 1=segunda, 2=terça, ..., 6=sábado
 # vacation = True caso você esteja de férias
 # o retorno é uma string que diz quando o despertador tocará

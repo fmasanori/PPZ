@@ -6,14 +6,14 @@
 # retorna uma string com n cópias da string original
 # multstring('Hi', 2) -> 'HiHi'
 def multstring(s, n):
-  return
+  return 
 
 # B. string_splosion
 # string_splosion('Code') -> 'CCoCodCode'
 # string_splosion('abc') -> 'aababc'
 # string_splosion('ab') -> 'aab'
 def string_splosion(s):
-  return
+  return 
 
 # C. array_count9
 # conta quantas vezes aparece o 9 numa lista nums
@@ -41,7 +41,7 @@ def hello_name(name):
 # make_tags('i', 'Hello'), '<i>Hello</i>'
 # make_tags('cite', 'Yay'), '<cite>Yay</cite>'
 def make_tags(tab, word):
-  return
+  return 
 
 # G. extra_end
 # seja um string s com no mínimo duas letras

@@ -7,11 +7,8 @@
 # você pode ficar dormindo quando é feriado ou não é dia semana
 # retorne True ou False conforme você vá dormir ou não
 def dormir(dia_semana, feriado):
-  if dia_semana and not feriado:
-    return False
-  else:
-    return True
-    
+  return 
+
 # B. alunos_problema
 # temos dois alunos a e b
 # a_sorri e b_sorri indicam se a e b sorriem

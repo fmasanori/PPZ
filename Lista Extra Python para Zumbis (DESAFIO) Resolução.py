@@ -4,7 +4,7 @@ def vestibular():
   while (t - p * 5) % 7 != 0:
     p = p - 1
   g = (t - p * 5) // 7
-  return f'{p} pequenos e {g} grandes' 
+  return '%d pequenos e %d grandes' %(p, g)
 
 def dec2rom(n):
   uni = [''] + 'I II III IV V VI VII VIII IX'.split()
