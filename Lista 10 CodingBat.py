@@ -18,6 +18,7 @@ def near_ten(n):
 # lone_sum(3, 3, 3) -> 0
 def lone_sum(a, b, c):
   return
+
 # C. luck_sum #
 # Soma três inteiros a, b, c
 # Se aparecer um 13 ele não conta e todos os da sua direita também
@@ -26,6 +27,7 @@ def lone_sum(a, b, c):
 # lucky_sum(1, 13, 3) -> 1
 def lucky_sum(a, b, c):
   return
+
 # D. double_char #
 # retorna os caracteres da string original duplicados
 # double_char('The') -> 'TThhee'
@@ -68,11 +70,7 @@ def count_code(s):
 # end_other('AbC', 'HiaBc') -> True
 # end_other('abc', 'abXabc') -> True
 def end_other(a, b):
-  a = a.lower()
-  b = b.lower()
-  if a.endswith(b) or b.endswith(a):
-    return True
-  return False
+  return
 
 # I. count_evens
 # conta os números pares da lista
@@ -80,11 +78,7 @@ def end_other(a, b):
 # count_evens([2, 2, 0]) -> 3
 # count_evens([1, 3, 5]) -> 0
 def count_evens(nums):
-  count=0
-  for k in nums:
-    if k % 2 ==0:
-      count+=1
-  return count
+  return 
 
 # J. sum13 #
 # retorna a soma dos números de uma lista
@@ -94,13 +88,7 @@ def count_evens(nums):
 # sum13([1, 2, 2, 1, 13]) -> 6
 # sum13([13, 1, 2, 3, 4]) -> 0
 def sum13(nums):
-  if 13 not in nums:
-    return sum(nums)
-
-  else:
-    k = nums.index(13)
-    return sum(nums[:k])
-  
+  return 
 
 # K. has22 #
 # Verifica se na lista de números inteiros aparecem dois 2 consecutivos
@@ -108,9 +96,7 @@ def sum13(nums):
 # has22([1, 2, 1, 2]) -> False
 # has22([2, 1, 2]) -> False
 def has22(nums):
-  return '2, 2' in str(nums)
-      
-  
+  return
 
 # L. soma_na_lista #
 # Verifica se um número é soma de dois elementos distintos de uma lista

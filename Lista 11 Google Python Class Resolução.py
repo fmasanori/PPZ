@@ -14,7 +14,7 @@
 # donuts(5) returns 'Número de donuts: 5'
 # donuts(23) returns 'Número de donuts: muitos'
 def donuts(n):
-  return 'Número de donuts: %s'  %('muitos' if n >= 10 else str(n))
+  return f'Número de donuts: {"muitos" if n >= 10 else str(n)}'
 
 # B. pontas
 # Dada uma string s, retorna uma string com as duas primeiras e as duas
@@ -22,10 +22,7 @@ def donuts(n):
 # Assim 'palmeiras' retorna 'paas'
 # No entanto, se a string tiver menos que 2 letras, retorna uma string vazia
 def pontas(s):
-  if len(s) < 2:
-    return ''
-  else:
-    return s[:2] + s[-2:]
+  return '' if len(s) < 2 else s[:2] + s[-2:]
 
 # C. fixa_primeiro
 # Dada uma string s, retorna uma string onde todas as ocorrências
@@ -59,7 +56,7 @@ def palindrome(s):
 # Hall of Fame Victor H. Panisa, 1a turma Python para Zumbis
 def busca(frase, palavra):
   return len([k for k in range(len(frase))
-              if frase[k:len(palavra)+k] == palavra])
+      if frase[k:k+len(palavra)] == palavra])
 
 # Provided simple test() function used in main() to print
 # what each function returns vs. what it's supposed to return.

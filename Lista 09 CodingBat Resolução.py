@@ -101,7 +101,7 @@ def squirrel_play(temp, is_summer):
 # pego_correndo(65, True) -> 0 
 def pego_correndo(speed, is_birthday):
   if is_birthday:
-    speed -= 5
+    speed = speed - 5
   if speed <= 60:
     return 0
   if 61 <= speed <= 80:

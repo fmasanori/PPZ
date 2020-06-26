@@ -34,6 +34,7 @@ def derivada(coef):
 # Colocamos os dígitos de dois números em listas ao contrário
 # 513 vira [3, 1, 5] e 295 vira [5, 9, 2]
 # [3, 1, 5] + [5, 9, 2] = [8, 0, 8]
+# pode supor que n1 e n2 tem o mesmo número de dígitos
 # Não vale converter a lista em número para somar diretamente
 def soma(n1, n2):
   return
@@ -79,11 +80,16 @@ def main():
 
   print ()
   print ('anagrama')
+  test(anagrama('sim', 'siiimmmmm'), False)
+  test(anagrama('iracema', 'america'), True)
+  test(anagrama('ator', 'rota'), True)
   test(anagrama('aberto', 'rebato'), True)
   test(anagrama('amor', 'roma'), True)
   test(anagrama('ramo', 'amor'), True)
   test(anagrama('baba', 'aba'), False)
   test(anagrama('casa', 'cassa'), False)
+  test(anagrama('palmeiras', 'abacate'), False)
+
 
 if __name__ == '__main__':
   main()

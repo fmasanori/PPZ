@@ -34,8 +34,7 @@ def x_antes(words):
 
 # LAB(begin solution)
 # Extract the last element from a tuple -- used for custom sorting below.
-def last(a):
-  return a[-1]
+def last(a):  return a[-1]
 # LAB(end solution)
 
 # C. sort_last

@@ -1,0 +1,37 @@
+Exercícios e Desafios de programação
+
+Listas I, II, III, IV, V, 06, 07, 08 é o EP1, 09, 10, 11, 12, 13, 14 e Lista de Exercícios  XIV Python para Zumbis.PDF
+Observe que são duas listas XIV, uma py e outra PDF (Revisão)
+
+Aconselho especialmente a fazer o seguinte subconjunto:
+I: 4, 9, 11
+II: 1, 3, 7
+III: 1, 3
+IV: 1, 2
+V: D, E
+06 Coding Bat: B, E, H, I
+07 Coding Bat: B, D, I, J
+09 Coding Bat: A, B, E, G, H, I, J
+10 Coding Bat: B, C, I, K
+11 Google Python Class: B, C, F
+12 Google Python Class: H, J, K
+13 Google Python Class: B, C
+14 Google Python Class: D, F, G, H
+Lista de Exercícios  XIV Python para Zumbis.PDF: *TUDO* lista excelente para revisar a matéria toda e ainda *fixar* conceitos!
+
+EP2 Opcional - Jogo da Forca
+
+Selection Test 2013 Facebook Hackaton
+Given two positive integers n and k, generate all binary integer between 0 and 2 ** n-1, inclusive. These binaries will be drawn in descending order according to the number of existing 1s. If there is a tie choose the lowest numerical value. Return the k-th element from the selected list.
+Eg n = 3 and k = 5
+['0 b111 ', '0 b11', '0 B101 ', 
+'0 b110', '0 b1 ', '0 b10', '0 b100 ', '0 b0']
+fifth element '0 b1 '
+
+Prova PPZ.py com testes embutidos ocultos
+
+Lista Extra III Desafio
+Lista Extra (DESAFIO)
+Lista Extra (DESAFIO) cont
+
+EP Estrutura de Dados opcional
