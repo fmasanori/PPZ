@@ -27,7 +27,7 @@ def not_bad(s):
 # o primeiro pedaço terá um caracter a mais,
 # Exemplo: 'abcde', divide-se em 'abc' e 'de'.
 # Dadas 2 strings, a e b, retorna a string
-#  a-inicio + b-inicio + a-final + b-final
+# a_inicio + b_inicio + a_final + b_final
 def inicio_final(a, b):
   return
 
