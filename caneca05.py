@@ -7,5 +7,5 @@ inicio = onde + 2
 fim = inicio + 4
 preço = texto[inicio:fim]
 if preço < 4.74:
-    print (preço)
+    print ('Compre pelo valor', preço)
 
