@@ -10,8 +10,6 @@
 # Dada uma lista de strings, retorna o número de strings
 # com tamanho >= 2 onde o primeiro e o último caracteres são iguais
 def fim_igual(words):
-  return len([w for w in words
-         if len(w) >= 2 and w[0] == w[-1]])
   k = 0
   for word in words:
     if len(word) >= 2 and word[0] == word[-1]:
@@ -36,7 +34,8 @@ def x_antes(words):
 
 # LAB(begin solution)
 # Extract the last element from a tuple -- used for custom sorting below.
-def last(a):  return a[-1]
+def last(a):
+  return a[-1]
 # LAB(end solution)
 
 # C. sort_last
