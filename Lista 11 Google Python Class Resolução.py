@@ -14,7 +14,7 @@
 # donuts(5) returns 'Número de donuts: 5'
 # donuts(23) returns 'Número de donuts: muitos'
 def donuts(n):
-  return f'Número de donuts: {"muitos" if n >= 10 else str(n)}'
+  return f'Número de donuts: {"muitos" if n >= 10 else n}'
 
 # B. pontas
 # Dada uma string s, retorna uma string com as duas primeiras e as duas
@@ -39,7 +39,7 @@ def fixa_primeiro(s):
 #   'mix', pod' -> 'pox mid'
 #   'dog', 'dinner' -> 'dig donner'
 def mistura2(a, b):
-  return b[:2] + a[2:] + ' ' + a[:2] + b [2:] 
+  return b[:2] + a[2:] + ' ' + a[:2] + b[2:] 
 
 # E. palindrome
 # Verifique se uma string é palíndrome

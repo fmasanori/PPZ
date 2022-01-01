@@ -20,7 +20,9 @@ def remove_iguais(nums):
 # as letras e montar uma string com o resultado.
 # Utilize listas auxiliares se facilitar
 def cripto(frase):
-  return ' '.join([''.join(sorted(set(p))) for p in frase.split()])
+  return ' '.join([''.join(
+            sorted(set(p)))
+            for p in frase.split()])
 
 # F. Derivada de um polinômio
 # Os coeficientes de um polinômio estão numa lista na ordem do seu grau.
